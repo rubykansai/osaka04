@@ -15,7 +15,7 @@
               <div class="text-h2 mb-15">
                 2024-08
               </div>
-              <div class="text-h4 mb-10">comming soon...</div>
+              <div class="text-h4 mb-10">coming soon...</div>
             </div>
             <v-btn href="https://twitter.com/rubykansai">
               <v-icon icon="mdi-twitter" class="text-h4"></v-icon>
