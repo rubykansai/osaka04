@@ -28,6 +28,11 @@
                 Nakanoshima Kaikan Hall
               </a>
             </div>
+            <div class="mt-8">
+              <a href="https://docs.google.com/forms/d/e/1FAIpQLSePaex7cIaCD2JiyLe_2hThT46n0HbvV7tFBxuXT2HwwTJpjg/viewform?pli=1" target="_blank">
+                <v-btn size="x-large" color="indigo-darken-3">Call For Proposals</v-btn>
+              </a>
+            </div>
           </v-card-item>
         </v-card>
         <Wave />
