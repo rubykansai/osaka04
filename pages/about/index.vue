@@ -23,7 +23,7 @@
                 <v-col md="4" sm="6" xs="6">
                   <v-card flat>
                     <div class="py-2 px-2">
-                      <v-img src="/orgernizers/ydah.jpeg" height="250px" cover></v-img>
+                      <v-img src="https://avatars.githubusercontent.com/u/13041216" height="250px" cover></v-img>
                       <v-card-title>ydah</v-card-title>
                       <v-card-subtitle>Cheif Organizer / Designer</v-card-subtitle>
                       <div class="d-flex justify-center">
@@ -36,7 +36,7 @@
                 <v-col md="4" sm="6" xs="6">
                   <v-card flat>
                     <div class="py-2 px-2">
-                      <v-img src="/orgernizers/hachi.jpg" height="250px" cover></v-img>
+                      <v-img src="https://avatars.githubusercontent.com/u/8371588" height="250px" cover></v-img>
                       <v-card-title>hachi</v-card-title>
                       <v-card-subtitle>Organizer</v-card-subtitle>
                       <div class="d-flex justify-center">
@@ -49,13 +49,112 @@
                 <v-col md="4" sm="6" xs="6">
                   <v-card flat>
                     <div class="py-2 px-2">
-                      <v-img src="/orgernizers/ogom.jpeg" height="250px" cover></v-img>
+                      <v-img src="https://avatars.githubusercontent.com/u/471923" height="250px" cover></v-img>
                       <v-card-title>おごもり</v-card-title>
                       <v-card-subtitle>Organizer</v-card-subtitle>
                       <div class="d-flex justify-center">
                         <a href="https://twitter.com/ogomr"><v-btn class="mx-2" icon="mdi-twitter" flat></v-btn></a>
                         <a href="https://github.com/ogom"><v-btn class="mx-2" icon="mdi-github" flat></v-btn></a>
                       </div>
+                    </div>
+                  </v-card>
+                </v-col>
+                <v-col md="4" sm="6" xs="6">
+                  <v-card flat>
+                    <div class="py-2 px-2">
+                      <v-img src="https://avatars.githubusercontent.com/u/911903" height="250px" cover></v-img>
+                      <v-card-title>むらじゅん</v-card-title>
+                      <v-card-subtitle>Organizer</v-card-subtitle>
+                    </div>
+                  </v-card>
+                </v-col>
+                <v-col md="4" sm="6" xs="6">
+                  <v-card flat>
+                    <div class="py-2 px-2">
+                      <v-img src="https://secure.gravatar.com/avatar/f95dd1e4bb869baf82e1e622488ae30e" height="250px" cover></v-img>
+                      <v-card-title>smantani</v-card-title>
+                      <v-card-subtitle>Organizer</v-card-subtitle>
+                    </div>
+                  </v-card>
+                </v-col>
+                <v-col md="4" sm="6" xs="6">
+                  <v-card flat>
+                    <div class="py-2 px-2">
+                      <v-img src="https://avatars.githubusercontent.com/u/194263" height="250px" cover></v-img>
+                      <v-card-title>spring_kuma</v-card-title>
+                      <v-card-subtitle>Organizer</v-card-subtitle>
+                    </div>
+                  </v-card>
+                </v-col>
+                <v-col md="4" sm="6" xs="6">
+                  <v-card flat>
+                    <div class="py-2 px-2">
+                      <v-img src="/orgernizers/khori.png" height="250px" cover></v-img>
+                      <v-card-title>khori</v-card-title>
+                      <v-card-subtitle>Organizer</v-card-subtitle>
+                    </div>
+                  </v-card>
+                </v-col>
+                <v-col md="4" sm="6" xs="6">
+                  <v-card flat>
+                    <div class="py-2 px-2">
+                      <v-img src="https://avatars.githubusercontent.com/u/11857" height="250px" cover></v-img>
+                      <v-card-title>znz</v-card-title>
+                      <v-card-subtitle>Organizer</v-card-subtitle>
+                    </div>
+                  </v-card>
+                </v-col>
+                <v-col md="4" sm="6" xs="6">
+                  <v-card flat>
+                    <div class="py-2 px-2">
+                      <v-img src="https://avatars.githubusercontent.com/u/7349115" height="250px" cover></v-img>
+                      <v-card-title>すぎうり</v-card-title>
+                      <v-card-subtitle>Organizer</v-card-subtitle>
+                    </div>
+                  </v-card>
+                </v-col>
+                <v-col md="4" sm="6" xs="6">
+                  <v-card flat>
+                    <div class="py-2 px-2">
+                      <v-img src="https://avatars.githubusercontent.com/u/42272942" height="250px" cover></v-img>
+                      <v-card-title>舘林 秀和</v-card-title>
+                      <v-card-subtitle>Organizer</v-card-subtitle>
+                    </div>
+                  </v-card>
+                </v-col>
+                <v-col md="4" sm="6" xs="6">
+                  <v-card flat>
+                    <div class="py-2 px-2">
+                      <v-img src="https://avatars.githubusercontent.com/u/57053236" height="250px" cover></v-img>
+                      <v-card-title>haruguchi</v-card-title>
+                      <v-card-subtitle>Organizer</v-card-subtitle>
+                    </div>
+                  </v-card>
+                </v-col>
+                <v-col md="4" sm="6" xs="6">
+                  <v-card flat>
+                    <div class="py-2 px-2">
+                      <v-img src="https://avatars.githubusercontent.com/u/17219700" height="250px" cover></v-img>
+                      <v-card-title>k-yoshida</v-card-title>
+                      <v-card-subtitle>Organizer</v-card-subtitle>
+                    </div>
+                  </v-card>
+                </v-col>
+                <v-col md="4" sm="6" xs="6">
+                  <v-card flat>
+                    <div class="py-2 px-2">
+                      <v-img src="https://avatars.githubusercontent.com/u/67820904" height="250px" cover></v-img>
+                      <v-card-title>okeysea</v-card-title>
+                      <v-card-subtitle>Organizer</v-card-subtitle>
+                    </div>
+                  </v-card>
+                </v-col>
+                <v-col md="4" sm="6" xs="6">
+                  <v-card flat>
+                    <div class="py-2 px-2">
+                      <v-img src="https://avatars.githubusercontent.com/u/46985135" height="250px" cover></v-img>
+                      <v-card-title>nishi_okashi</v-card-title>
+                      <v-card-subtitle>Organizer</v-card-subtitle>
                     </div>
                   </v-card>
                 </v-col>
