@@ -74,6 +74,10 @@
                       <v-img src="https://secure.gravatar.com/avatar/f95dd1e4bb869baf82e1e622488ae30e" height="250px" cover></v-img>
                       <v-card-title>smantani</v-card-title>
                       <v-card-subtitle>Organizer</v-card-subtitle>
+                      <div class="d-flex justify-center">
+                        <a href="https://twitter.com/murajun1978"><v-btn class="mx-2" icon="mdi-twitter" flat></v-btn></a>
+                        <a href="https://github.com/murajun1978"><v-btn class="mx-2" icon="mdi-github" flat></v-btn></a>
+                      </div>
                     </div>
                   </v-card>
                 </v-col>
