@@ -29,7 +29,7 @@
               </a>
             </div>
             <div class="mt-8">
-              <a href="https://rubykansai.doorkeeper.jp/events/174017" target="_blank" class="mr-3">
+              <a href="https://rubykansai.doorkeeper.jp/events/174017" target="_blank" class="mr-3 mb-3">
                 <v-btn size="x-large" color="red-darken-3">Register Now</v-btn>
               </a>
               <a href="https://docs.google.com/forms/d/e/1FAIpQLSePaex7cIaCD2JiyLe_2hThT46n0HbvV7tFBxuXT2HwwTJpjg/viewform?pli=1" target="_blank">
