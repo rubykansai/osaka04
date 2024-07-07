@@ -20,7 +20,7 @@
               </div>
               <h2 class="text-h5 title mb-2">Team</h2>
               <v-row>
-                <v-col md="4" sm="6" xs="6">
+                <v-col md="4" sm="6" xs="12">
                   <v-card flat>
                     <div class="py-2 px-2">
                       <v-img src="https://avatars.githubusercontent.com/u/13041216" height="250px" cover></v-img>
@@ -33,7 +33,7 @@
                     </div>
                   </v-card>
                 </v-col>
-                <v-col md="4" sm="6" xs="6">
+                <v-col md="4" sm="6" xs="12">
                   <v-card flat>
                     <div class="py-2 px-2">
                       <v-img src="https://avatars.githubusercontent.com/u/8371588" height="250px" cover></v-img>
@@ -46,7 +46,7 @@
                     </div>
                   </v-card>
                 </v-col>
-                <v-col md="4" sm="6" xs="6">
+                <v-col md="4" sm="6" xs="12">
                   <v-card flat>
                     <div class="py-2 px-2">
                       <v-img src="https://avatars.githubusercontent.com/u/471923" height="250px" cover></v-img>
@@ -59,7 +59,7 @@
                     </div>
                   </v-card>
                 </v-col>
-                <v-col md="4" sm="6" xs="6">
+                <v-col md="4" sm="6" xs="12">
                   <v-card flat>
                     <div class="py-2 px-2">
                       <v-img src="https://avatars.githubusercontent.com/u/911903" height="250px" cover></v-img>
@@ -68,7 +68,7 @@
                     </div>
                   </v-card>
                 </v-col>
-                <v-col md="4" sm="6" xs="6">
+                <v-col md="4" sm="6" xs="12">
                   <v-card flat>
                     <div class="py-2 px-2">
                       <v-img src="https://secure.gravatar.com/avatar/f95dd1e4bb869baf82e1e622488ae30e" height="250px" cover></v-img>
@@ -81,7 +81,7 @@
                     </div>
                   </v-card>
                 </v-col>
-                <v-col md="4" sm="6" xs="6">
+                <v-col md="4" sm="6" xs="12">
                   <v-card flat>
                     <div class="py-2 px-2">
                       <v-img src="https://avatars.githubusercontent.com/u/194263" height="250px" cover></v-img>
@@ -90,7 +90,7 @@
                     </div>
                   </v-card>
                 </v-col>
-                <v-col md="4" sm="6" xs="6">
+                <v-col md="4" sm="6" xs="12">
                   <v-card flat>
                     <div class="py-2 px-2">
                       <v-img src="/orgernizers/khori.png" height="250px" cover></v-img>
@@ -99,7 +99,7 @@
                     </div>
                   </v-card>
                 </v-col>
-                <v-col md="4" sm="6" xs="6">
+                <v-col md="4" sm="6" xs="12">
                   <v-card flat>
                     <div class="py-2 px-2">
                       <v-img src="https://avatars.githubusercontent.com/u/11857" height="250px" cover></v-img>
@@ -108,7 +108,7 @@
                     </div>
                   </v-card>
                 </v-col>
-                <v-col md="4" sm="6" xs="6">
+                <v-col md="4" sm="6" xs="12">
                   <v-card flat>
                     <div class="py-2 px-2">
                       <v-img src="https://avatars.githubusercontent.com/u/7349115" height="250px" cover></v-img>
@@ -117,7 +117,7 @@
                     </div>
                   </v-card>
                 </v-col>
-                <v-col md="4" sm="6" xs="6">
+                <v-col md="4" sm="6" xs="12">
                   <v-card flat>
                     <div class="py-2 px-2">
                       <v-img src="https://avatars.githubusercontent.com/u/42272942" height="250px" cover></v-img>
@@ -126,7 +126,7 @@
                     </div>
                   </v-card>
                 </v-col>
-                <v-col md="4" sm="6" xs="6">
+                <v-col md="4" sm="6" xs="12">
                   <v-card flat>
                     <div class="py-2 px-2">
                       <v-img src="https://avatars.githubusercontent.com/u/57053236" height="250px" cover></v-img>
@@ -135,7 +135,7 @@
                     </div>
                   </v-card>
                 </v-col>
-                <v-col md="4" sm="6" xs="6">
+                <v-col md="4" sm="6" xs="12">
                   <v-card flat>
                     <div class="py-2 px-2">
                       <v-img src="https://avatars.githubusercontent.com/u/17219700" height="250px" cover></v-img>
@@ -144,7 +144,7 @@
                     </div>
                   </v-card>
                 </v-col>
-                <v-col md="4" sm="6" xs="6">
+                <v-col md="4" sm="6" xs="12">
                   <v-card flat>
                     <div class="py-2 px-2">
                       <v-img src="https://avatars.githubusercontent.com/u/67820904" height="250px" cover></v-img>
@@ -153,7 +153,7 @@
                     </div>
                   </v-card>
                 </v-col>
-                <v-col md="4" sm="6" xs="6">
+                <v-col md="4" sm="6" xs="12">
                   <v-card flat>
                     <div class="py-2 px-2">
                       <v-img src="https://avatars.githubusercontent.com/u/46985135" height="250px" cover></v-img>
