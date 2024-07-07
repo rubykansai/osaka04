@@ -203,7 +203,7 @@
 
 @media (max-width: 600px) {
 .v-col {
-    flex-basis: inherit;
+    flex-basis: inherit !important;
   }
 }
 </style>
