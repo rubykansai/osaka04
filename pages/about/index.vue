@@ -200,4 +200,10 @@
 .footer a {
   color: #fff;
 }
+
+@media (max-width: 600px) {
+.v-col {
+    flex-basis: inherit;
+  }
+}
 </style>
