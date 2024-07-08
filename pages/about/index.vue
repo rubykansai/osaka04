@@ -96,6 +96,9 @@
                       <v-img src="/orgernizers/khori.png" height="250px" cover></v-img>
                       <v-card-title>khori</v-card-title>
                       <v-card-subtitle>Organizer</v-card-subtitle>
+                      <div class="d-flex justify-center">
+                        <a href="https://twitter.com/khoriosk"><v-btn class="mx-2" icon="mdi-twitter" flat></v-btn></a>
+                      </div>
                     </div>
                   </v-card>
                 </v-col>
@@ -159,6 +162,10 @@
                       <v-img src="https://avatars.githubusercontent.com/u/46985135" height="250px" cover></v-img>
                       <v-card-title>nishi_okashi</v-card-title>
                       <v-card-subtitle>Organizer</v-card-subtitle>
+                      <div class="d-flex justify-center">
+                        <a href="https://twitter.com/nishi_okashi"><v-btn class="mx-2" icon="mdi-twitter" flat></v-btn></a>
+                        <a href="https://github.com/nishioka-shinji"><v-btn class="mx-2" icon="mdi-github" flat></v-btn></a>
+                      </div>
                     </div>
                   </v-card>
                 </v-col>
