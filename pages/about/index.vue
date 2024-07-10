@@ -108,6 +108,10 @@
                       <v-img src="https://avatars.githubusercontent.com/u/11857" height="250px" cover></v-img>
                       <v-card-title>znz</v-card-title>
                       <v-card-subtitle>Organizer</v-card-subtitle>
+                      <div class="d-flex justify-center">
+                        <a href="https://twitter.com/znz"><v-btn class="mx-2" icon="mdi-twitter" flat></v-btn></a>
+                        <a href="https://github.com/znz"><v-btn class="mx-2" icon="mdi-github" flat></v-btn></a>
+                      </div>
                     </div>
                   </v-card>
                 </v-col>
@@ -117,6 +121,10 @@
                       <v-img src="https://avatars.githubusercontent.com/u/7349115" height="250px" cover></v-img>
                       <v-card-title>すぎうり</v-card-title>
                       <v-card-subtitle>Organizer</v-card-subtitle>
+                      <div class="d-flex justify-center">
+                        <a href="https://twitter.com/uproad3"><v-btn class="mx-2" icon="mdi-twitter" flat></v-btn></a>
+                        <a href="https://github.com/uproad"><v-btn class="mx-2" icon="mdi-github" flat></v-btn></a>
+                      </div>
                     </div>
                   </v-card>
                 </v-col>
@@ -126,6 +134,10 @@
                       <v-img src="https://avatars.githubusercontent.com/u/42272942" height="250px" cover></v-img>
                       <v-card-title>舘林 秀和</v-card-title>
                       <v-card-subtitle>Organizer</v-card-subtitle>
+                      <div class="d-flex justify-center">
+                        <a href="https://twitter.com/shutooike"><v-btn class="mx-2" icon="mdi-twitter" flat></v-btn></a>
+                        <a href="https://github.com/shutooike"><v-btn class="mx-2" icon="mdi-github" flat></v-btn></a>
+                      </div>
                     </div>
                   </v-card>
                 </v-col>
@@ -135,6 +147,10 @@
                       <v-img src="https://avatars.githubusercontent.com/u/57053236" height="250px" cover></v-img>
                       <v-card-title>haruguchi</v-card-title>
                       <v-card-subtitle>Organizer</v-card-subtitle>
+                      <div class="d-flex justify-center">
+                        <a href="https://twitter.com/haruguchiyuma"><v-btn class="mx-2" icon="mdi-twitter" flat></v-btn></a>
+                        <a href="https://github.com/haruguchi-yuma"><v-btn class="mx-2" icon="mdi-github" flat></v-btn></a>
+                      </div>
                     </div>
                   </v-card>
                 </v-col>
@@ -153,6 +169,10 @@
                       <v-img src="https://avatars.githubusercontent.com/u/67820904" height="250px" cover></v-img>
                       <v-card-title>okeysea</v-card-title>
                       <v-card-subtitle>Organizer</v-card-subtitle>
+                      <div class="d-flex justify-center">
+                        <a href="https://twitter.com/okeysea1"><v-btn class="mx-2" icon="mdi-twitter" flat></v-btn></a>
+                        <a href="https://github.com/okeysea"><v-btn class="mx-2" icon="mdi-github" flat></v-btn></a>
+                      </div>
                     </div>
                   </v-card>
                 </v-col>
