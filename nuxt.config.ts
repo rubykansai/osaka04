@@ -34,6 +34,9 @@ export default defineNuxtConfig({
       meta: [
         { charset: 'utf-8' },
         { name: 'viewport', content: 'width=device-width, initial-scale=1' },
+        { property: 'og:type', content: 'website' },
+        { property: 'og:site_name', content: 'Osaka RubyKaigi 04' },
+        { property: 'og:image', content: '/ogp.png' },
       ],
       link: [
         { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
@@ -43,6 +46,10 @@ export default defineNuxtConfig({
           crossorigin: '',
         },
       ],
+      htmlAttrs: {
+        lang: 'ja',
+        prefix: 'og: http://ogp.me/ns#',
+      },
     },
     baseURL: '/osaka04/',
   },
