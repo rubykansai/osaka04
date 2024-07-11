@@ -13,14 +13,14 @@
   },
   "dependencies": {
     "@mdi/font": "^7.4.47",
-    "nuxt": "^3.11.1",
-    "vue": "^3.4.21",
-    "vue-router": "^4.3.0"
+    "nuxt": "^3.12.3",
+    "vue": "^3.4.31",
+    "vue-router": "^4.4.0"
   },
   "devDependencies": {
     "@nuxt/eslint": "^0.3.13",
-    "eslint": "^9.3.0",
+    "eslint": "^9.6.0",
     "vite-plugin-vuetify": "^2.0.3",
-    "vuetify": "^3.5.14"
+    "vuetify": "^3.6.12"
   }
 }
