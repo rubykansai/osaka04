@@ -36,10 +36,10 @@ export default defineNuxtConfig({
         { name: 'viewport', content: 'width=device-width, initial-scale=1' },
         { property: 'og:type', content: 'website' },
         { property: 'og:site_name', content: 'Osaka RubyKaigi 04' },
-        { property: 'og:image', content: '/ogp.png' },
+        { property: 'og:image', content: '/osaka04/ogp.png' },
       ],
       link: [
-        { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
+        { rel: 'icon', type: 'image/x-icon', href: '/osaka04/favicon.ico' },
         {
           rel: 'stylesheet',
           href: 'https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Federo&family=Raleway:ital,wght@0,100..900;1,100..900&family=Saira+Extra+Condensed:wght@100;200;300;400;500;600;700;800;900&display=swap',
