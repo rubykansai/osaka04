@@ -39,7 +39,7 @@ export default defineNuxtConfig({
         { property: 'og:site_name', content: 'Osaka RubyKaigi 04' },
         { property: 'og:image', content: '/osaka04/ogp.png' },
         { property: 'og:description', content: '大阪Ruby会議は、大阪で定期的に開催しているRubyプログラミング言語に関するカンファレンスです。Rubyに関する知見・技術を共有し、またRubyistの交流の場として、皆様に楽しんでいただけるカンファレンスを目指しています。' },
-        { property: 'og:url', content: 'https://osaka04.rubykaigi.org/' },
+        { property: 'og:url', content: 'https://regional.rubykaigi.org/osaka04/' },
         { property: 'og:title', content: 'Osaka RubyKaigi 04' },
         { name: 'twitter:title', content: 'Osaka RubyKaigi 04' },
         { name: 'twitter:card', content: 'summary_large_image' },
