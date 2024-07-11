@@ -89,7 +89,7 @@ export default {
       },
       {
         name: '株式会社SmartHR',
-        url: 'https://smarthr.jp/',
+        url: 'https://hello-world.smarthr.co.jp/',
         description: 'SmartHRは、労働にまつわる社会課題をなくし、誰もがその人らしく働ける社会の実現を目指し、働くすべての人の生産性向上を後押ししています。クラウド人事労務ソフト「SmartHR」は、人事・労務業務をペーパーレス化し効率化する機能に加え、人事評価、配置シミュレーション、採用管理機能を提供。さらに、外部システムとの連携やアプリストア「SmartHR Plus」を通じて、幅広いニーズに対応したサービスを提供しています。',
         image: 'sponsors/smarthr.png',
       },
