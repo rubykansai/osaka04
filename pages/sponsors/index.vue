@@ -17,7 +17,8 @@
                     </a>
                   </v-col>
                   <v-col>
-                    <h3 class="text-h5 mb-2">{{ content.name }}</h3>
+                    <p><a class="text-link text-h5 mb-2" :href="content.url" target="_blank">{{ content.name }}</a></p>
+                    <p><a class="text-link text-caption" :href="content.url" target="_blank">{{ content.url }}</a></p>
                     <p class="text-body-1 mt-5">{{ content.description }}</p>
                   </v-col>
                 </v-row>
@@ -31,7 +32,8 @@
                     </a>
                   </v-col>
                   <v-col>
-                    <h3 class="text-h5 mb-2">{{ community.name }}</h3>
+                    <p><a class="text-link text-h5 mb-2" :href="community.url" target="_blank">{{ community.name }}</a></p>
+                    <p><a class="text-link text-caption" :href="community.url" target="_blank">{{ community.url }}</a></p>
                     <p class="text-body-1 mt-5">{{ community.description }}</p>
                   </v-col>
                 </v-row>
@@ -132,6 +134,20 @@ export default {
 
 .sponsors {
   background-color: #fbfbfb !important;
+}
+
+.text-link {
+  color: #000;
+  text-decoration: none;
+}
+
+.text-link:hover {
+  color: #419dbf;
+  text-decoration: underline;
+  box-sizing:border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  transition: all 0.1s ease-in-out;
 }
 
 .link:hover {
