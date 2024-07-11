@@ -18,7 +18,21 @@
                   </v-col>
                   <v-col>
                     <h3 class="text-h5 mb-2">{{ content.name }}</h3>
-                    <p class="text-body-1">{{ content.description }}</p>
+                    <p class="text-body-1 mt-5">{{ content.description }}</p>
+                  </v-col>
+                </v-row>
+              </v-card>
+              <h2 class="text-h4 title mb-2">Community Sponsors</h2>
+              <v-card class="sponsors py-10 px-10 mb-8" :elevation="0" v-for="(community, index) in communities" :key="index">
+                <v-row>
+                  <v-col lg="3" md="12" sm="12" xs="12" class="justify-center" align="center">
+                    <a :href="community.url" target="_blank">
+                      <v-img class="link" :src="generateImgPath(community.image)" max-height="300px" max-width="300px" ></v-img>
+                    </a>
+                  </v-col>
+                  <v-col>
+                    <h3 class="text-h5 mb-2">{{ community.name }}</h3>
+                    <p class="text-body-1 mt-5">{{ community.description }}</p>
                   </v-col>
                 </v-row>
               </v-card>
@@ -76,6 +90,26 @@ export default {
         url: 'https://smarthr.jp/',
         description: 'SmartHRは、労働にまつわる社会課題をなくし、誰もがその人らしく働ける社会の実現を目指し、働くすべての人の生産性向上を後押ししています。クラウド人事労務ソフト「SmartHR」は、人事・労務業務をペーパーレス化し効率化する機能に加え、人事評価、配置シミュレーション、採用管理機能を提供。さらに、外部システムとの連携やアプリストア「SmartHR Plus」を通じて、幅広いニーズに対応したサービスを提供しています。',
         image: 'sponsors/smarthr.png',
+      },
+    ],
+    communities: [
+      {
+        name: '日本Rubyの会',
+        url: 'https://ruby-no-kai.org/',
+        description: ' Rubyの利用者の支援 Ruby(+Rubyのライブラリ)開発者の支援を目的とした一般社団法人です。現在は、ドキュメントの整備や、イベントへの参加協力等を中心に活動しています。',
+        image: 'sponsors/rubynokai.png',
+      },
+      {
+        name: 'Kyobashi.rb',
+        url: 'https://kyobashirb.connpass.com/',
+        description: 'Kyobashi.rb は京橋周辺の Rubyist が集まって Ruby や技術の話をするコミュニティです。京橋周辺としていますが、京橋に職場や居住地がない人も大歓迎です！月一程度で ShortTalk(10min) 大会や、懇親🍶🍻をしています。',
+        image: 'sponsors/kyobashirb.png',
+      },
+      {
+        name: 'Ruby関西',
+        url: 'https://rubykansai.doorkeeper.jp/',
+        description: 'Ruby関西はRuby関西勉強会や関西Ruby會議、Rails勉強会＠関西など、関西でのRubyに関するイベントの主体となるコミュニティです。',
+        image: 'sponsors/rubykansai.png',
       }
     ],
   }),
