@@ -8,8 +8,9 @@
       <template #append>
         <!-- <v-btn>Schedule</v-btn>
         <v-btn>Speakers</v-btn>
-        <v-btn>Sponsors</v-btn> -->
+        -->
         <NuxtLink class="d-none d-sm-block" to="/"><v-btn>Home</v-btn></NuxtLink>
+        <!-- <NuxtLink class="d-none d-sm-block" to="/sponsors"><v-btn>Sponsors</v-btn></NuxtLink> -->
         <NuxtLink class="d-none d-sm-block" to="/venue"><v-btn>Venue</v-btn></NuxtLink>
         <NuxtLink class="d-none d-sm-block" to="/policies"><v-btn>Policies</v-btn></NuxtLink>
         <NuxtLink class="d-none d-sm-block" to="/about"><v-btn>About</v-btn></NuxtLink>
@@ -19,6 +20,7 @@
     <v-navigation-drawer v-model="drawer">
       <v-list>
         <NuxtLink to="/"><v-list-item>Home</v-list-item></NuxtLink>
+        <!-- <NuxtLink to="/sponsors"><v-list-item>Sponsors</v-list-item></NuxtLink> -->
         <NuxtLink to="/venue"><v-list-item>Venue</v-list-item></NuxtLink>
         <NuxtLink to="/policies"><v-list-item>Policies</v-list-item></NuxtLink>
         <NuxtLink to="/about"><v-list-item>About</v-list-item></NuxtLink>
