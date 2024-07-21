@@ -6,9 +6,6 @@
         variant="text"
         @click.stop="drawer = !drawer"/>
       <template #append>
-        <!-- <v-btn>Schedule</v-btn>
-        <v-btn>Speakers</v-btn>
-        -->
         <NuxtLink class="d-none d-sm-block" to="/"><v-btn>Home</v-btn></NuxtLink>
         <NuxtLink class="d-none d-sm-block" to="/speakers"><v-btn>Speakers</v-btn></NuxtLink>
         <NuxtLink class="d-none d-sm-block" to="/sponsors"><v-btn>Sponsors</v-btn></NuxtLink>
