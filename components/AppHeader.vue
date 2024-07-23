@@ -12,7 +12,7 @@
         <NuxtLink class="d-none d-sm-block" to="/venue"><v-btn>Venue</v-btn></NuxtLink>
         <NuxtLink class="d-none d-sm-block" to="/policies"><v-btn>Policies</v-btn></NuxtLink>
         <NuxtLink class="d-none d-sm-block" to="/about"><v-btn>About</v-btn></NuxtLink>
-        <a class="d-none d-sm-block" href="https://suzuri.jp/kyobashirb" target="_blank"><v-btn>Goodies</v-btn></a>
+        <NuxtLink class="d-none d-sm-block" to="/goodies"><v-btn>Goodies</v-btn></NuxtLink>
       </template>
     </v-app-bar>
     <v-navigation-drawer v-model="drawer">
@@ -23,7 +23,7 @@
         <NuxtLink to="/venue"><v-list-item>Venue</v-list-item></NuxtLink>
         <NuxtLink to="/policies"><v-list-item>Policies</v-list-item></NuxtLink>
         <NuxtLink to="/about"><v-list-item>About</v-list-item></NuxtLink>
-        <a href="https://suzuri.jp/kyobashirb" target="_blank"><v-list-item>Goodies</v-list-item></a>
+        <NuxtLink to="/goodies"><v-list-item>Goodies</v-list-item></NuxtLink>
       </v-list>
     </v-navigation-drawer>
   </div>
