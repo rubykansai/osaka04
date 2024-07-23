@@ -34,7 +34,7 @@
                       </v-list-item-content>
                     </v-list-item>
                   </v-list>
-                  <a href="/keynote_template_osaka_rubykaigi04.key" target="_blank" download="keynote_template_osaka_rubykaigi04.key">
+                  <a href="https://rubykansai.github.io/osaka04/keynote_template_osaka_rubykaigi04.key" target="_blank" download="keynote_template_osaka_rubykaigi04.key">
                     <v-btn rounded="xl" size="x-large" color="indigo-darken-3">Download</v-btn>
                   </a>
                 </v-col>
