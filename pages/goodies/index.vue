@@ -17,7 +17,7 @@
                   <v-img src="/keynote_template_osaka_rubykaigi04.png" max-height="30rem" max-width="30rem" cover></v-img>
                 </v-col>
                 <v-col>
-                  <h3 class="text-h6 mb-5">This template requires the following fonts:</h3>
+                  <h3 class="text-h6">This template requires the following fonts:</h3>
                   <v-list>
                     <v-list-item>
                       <v-list-item-content>
