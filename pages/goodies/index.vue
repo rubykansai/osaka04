@@ -8,6 +8,9 @@
             <v-img src="/logo.png" width="10vh"/>
             <h1 class="text-h2 title mb-15">Goodies</h1>
             <div align="left">
+              <h2 class="text-h5 title mb-5">Main Visual</h2>
+              <v-img src="/ogp.png"></v-img>
+              <v-divider class="my-15"></v-divider>
               <h2 class="text-h5 title mb-5">Keynote Template</h2>
               <v-row class="justify-space-between">
                 <v-col md="6" sm="6" xs="12">
