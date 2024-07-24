@@ -3,17 +3,40 @@
     <AppHeader />
     <v-row>
       <v-col align="center">
-        <v-card min-width="100vw" class="py-10" :elevation="0">
+        <v-card
+          min-width="100vw"
+          class="py-10"
+          :elevation="0"
+        >
           <v-card-item class="justify-center">
-            <v-img src="/logo.png" width="25vh"/>
-            <div class="text-h1 d-none d-sm-block title mb-5">Osaka RubyKaigi 04</div>
-            <div class="text-h3 d-none d-sm-block title mb-15">2024.8.24 (Saturday)</div>
-            <div class="text-h3 d-none d-sm-block keynotes mb-4">Keynote Speakers</div>
-            <div class="text-h4 d-none d-sm-block names">Yuichiro Kaneko / Hitoshi HASUMI</div>
-            <div class="text-h2 d-block d-sm-none title mb-5">Osaka RubyKaigi 04</div>
-            <div class="text-h4 d-block d-sm-none title mb-15">2024.8.24 (Saturday)</div>
-            <div class="text-h4 d-block d-sm-none keynotes mb-4">Keynote Speakers</div>
-            <div class="text-h5 d-block d-sm-none names">Yuichiro Kaneko / Hitoshi HASUMI</div>
+            <v-img
+              src="/logo.png"
+              width="25vh"
+            />
+            <div class="text-h1 d-none d-sm-block title mb-5">
+              Osaka RubyKaigi 04
+            </div>
+            <div class="text-h3 d-none d-sm-block title mb-15">
+              2024.8.24 (Saturday)
+            </div>
+            <div class="text-h3 d-none d-sm-block keynotes mb-4">
+              Keynote Speakers
+            </div>
+            <div class="text-h4 d-none d-sm-block names">
+              Yuichiro Kaneko / Hitoshi HASUMI
+            </div>
+            <div class="text-h2 d-block d-sm-none title mb-5">
+              Osaka RubyKaigi 04
+            </div>
+            <div class="text-h4 d-block d-sm-none title mb-15">
+              2024.8.24 (Saturday)
+            </div>
+            <div class="text-h4 d-block d-sm-none keynotes mb-4">
+              Keynote Speakers
+            </div>
+            <div class="text-h5 d-block d-sm-none names">
+              Yuichiro Kaneko / Hitoshi HASUMI
+            </div>
           </v-card-item>
           <v-card-item class="mt-10 text-center justify-center">
             <div class="text-h4 d-none d-sm-block where">
@@ -29,13 +52,20 @@
               </a>
             </div>
             <div class="mt-8">
-              <a href="https://rubykansai.doorkeeper.jp/events/174017" target="_blank" class="mr-3">
-                <v-btn size="x-large" color="red-darken-3">Register Now</v-btn>
+              <a
+                href="https://rubykansai.doorkeeper.jp/events/174017"
+                target="_blank"
+                class="mr-3"
+              >
+                <v-btn
+                  size="x-large"
+                  color="red-darken-3"
+                >Register Now</v-btn>
               </a>
             </div>
           </v-card-item>
         </v-card>
-        <Wave />
+        <FooterWave />
         <div class="footer">
           Osaka RubyKaigi 04 ©2024 <br>
           Designed by <a href="https://twitter.com/ydah_">@ydah_</a>

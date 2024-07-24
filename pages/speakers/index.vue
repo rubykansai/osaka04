@@ -3,43 +3,107 @@
     <AppHeader />
     <v-row>
       <v-col align="center">
-        <v-card max-width="70vw" min-width="70vw" class="py-10" :elevation="0">
+        <v-card
+          max-width="70vw"
+          min-width="70vw"
+          class="py-10"
+          :elevation="0"
+        >
           <v-card-item>
-            <v-img src="/logo.png" width="10vh"/>
-            <h1 class="text-h2 title mb-15">Speakers</h1>
+            <v-img
+              src="/logo.png"
+              width="10vh"
+            />
+            <h1 class="text-h2 title mb-15">
+              Speakers
+            </h1>
             <div align="left">
-              <h2 class="text-h5 title mb-2">Keynote Speakers</h2>
+              <h2 class="text-h5 title mb-2">
+                Keynote Speakers
+              </h2>
               <v-row class="justify-space-between">
-                <v-col md="6" sm="6" xs="12" v-for="(speaker, index) in keyspeakers" :key="index">
-                  <v-card class="speakers" align="center" flat>
+                <v-col
+                  v-for="(speaker, index) in keyspeakers"
+                  :key="index"
+                  md="6"
+                  sm="6"
+                  xs="12"
+                >
+                  <v-card
+                    class="speakers"
+                    align="center"
+                    flat
+                  >
                     <div class="py-2 px-2">
-                      <v-img :src="speaker.image" max-height="10rem" max-width="10rem" cover></v-img>
+                      <v-img
+                        :src="speaker.image"
+                        max-height="10rem"
+                        max-width="10rem"
+                        cover
+                      />
                       <v-card-title>{{ speaker.name }}</v-card-title>
                       <div class="d-flex justify-center">
-                        <a :href="speaker.twitter"><v-btn class="mx-2" icon="mdi-twitter" flat></v-btn></a>
-                        <a :href="speaker.github"><v-btn class="mx-2" icon="mdi-github" flat></v-btn></a>
+                        <a :href="speaker.twitter"><v-btn
+                          class="mx-2"
+                          icon="mdi-twitter"
+                          flat
+                        /></a>
+                        <a :href="speaker.github"><v-btn
+                          class="mx-2"
+                          icon="mdi-github"
+                          flat
+                        /></a>
                       </div>
                       <div align="left">
-                        <p class="text-body-2 mt-5">{{ speaker.description }}</p>
+                        <p class="text-body-2 mt-5">
+                          {{ speaker.description }}
+                        </p>
                       </div>
                     </div>
                   </v-card>
                 </v-col>
               </v-row>
-              <v-divider class="my-10"></v-divider>
-              <h2 class="text-h5 title mb-2">Speakers</h2>
+              <v-divider class="my-10" />
+              <h2 class="text-h5 title mb-2">
+                Speakers
+              </h2>
               <v-row>
-                <v-col md="4" sm="4" xs="12" v-for="(speaker, index) in speakers" :key="index">
-                  <v-card class="speakers" align="center" flat>
+                <v-col
+                  v-for="(speaker, index) in speakers"
+                  :key="index"
+                  md="4"
+                  sm="4"
+                  xs="12"
+                >
+                  <v-card
+                    class="speakers"
+                    align="center"
+                    flat
+                  >
                     <div class="py-2 px-2">
-                      <v-img :src="speaker.image" max-height="10rem" max-width="10rem" cover></v-img>
+                      <v-img
+                        :src="speaker.image"
+                        max-height="10rem"
+                        max-width="10rem"
+                        cover
+                      />
                       <v-card-title>{{ speaker.name }}</v-card-title>
                       <div class="d-flex justify-center">
-                        <a :href="speaker.twitter"><v-btn class="mx-2" icon="mdi-twitter" flat></v-btn></a>
-                        <a :href="speaker.github"><v-btn class="mx-2" icon="mdi-github" flat></v-btn></a>
+                        <a :href="speaker.twitter"><v-btn
+                          class="mx-2"
+                          icon="mdi-twitter"
+                          flat
+                        /></a>
+                        <a :href="speaker.github"><v-btn
+                          class="mx-2"
+                          icon="mdi-github"
+                          flat
+                        /></a>
                       </div>
                       <div align="left">
-                        <p class="text-body-2 mt-5">{{ speaker.description }}</p>
+                        <p class="text-body-2 mt-5">
+                          {{ speaker.description }}
+                        </p>
                       </div>
                     </div>
                   </v-card>
@@ -48,7 +112,7 @@
             </div>
           </v-card-item>
         </v-card>
-        <Wave />
+        <FooterWave />
         <div class="footer">
           Osaka RubyKaigi 04 ©2024 <br>
           Designed by <a href="https://twitter.com/ydah_">@ydah_</a>

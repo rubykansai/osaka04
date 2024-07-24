@@ -3,60 +3,178 @@
     <AppHeader />
     <v-row>
       <v-col align="center">
-        <v-card max-width="70vw" min-width="70vw" class="py-10" :elevation="0">
+        <v-card
+          max-width="70vw"
+          min-width="70vw"
+          class="py-10"
+          :elevation="0"
+        >
           <v-card-item>
-            <v-img src="/logo.png" width="10vh"/>
-            <h1 class="text-h2 title mb-15">Sponsors</h1>
+            <v-img
+              src="/logo.png"
+              width="10vh"
+            />
+            <h1 class="text-h2 title mb-15">
+              Sponsors
+            </h1>
             <div align="left">
-              <h2 class="text-h4 title mb-2">Premium Sponsors</h2>
-              <v-card class="sponsors py-10 px-10 mb-8" :elevation="0" v-for="(content, index) in contents" :key="index">
+              <h2 class="text-h4 title mb-2">
+                Premium Sponsors
+              </h2>
+              <v-card
+                v-for="(content, index) in contents"
+                :key="index"
+                class="sponsors py-10 px-10 mb-8"
+                :elevation="0"
+              >
                 <v-row>
-                  <v-col lg="3" md="12" sm="12" xs="12" class="justify-center" align="center">
-                    <a :href="content.url" target="_blank">
-                      <v-img class="link" :src="generateImgPath(content.image)" max-height="300px" max-width="300px" ></v-img>
+                  <v-col
+                    lg="3"
+                    md="12"
+                    sm="12"
+                    xs="12"
+                    class="justify-center"
+                    align="center"
+                  >
+                    <a
+                      :href="content.url"
+                      target="_blank"
+                    >
+                      <v-img
+                        class="link"
+                        :src="generateImgPath(content.image)"
+                        max-height="300px"
+                        max-width="300px"
+                      />
                     </a>
                   </v-col>
                   <v-col>
-                    <p><a class="text-link text-h5 mb-2" :href="content.url" target="_blank">{{ content.name }}</a></p>
-                    <p><a class="text-link text-caption" :href="content.url" target="_blank">{{ content.url }}</a></p>
-                    <p class="text-body-1 mt-5">{{ content.description }}</p>
+                    <p>
+                      <a
+                        class="text-link text-h5 mb-2"
+                        :href="content.url"
+                        target="_blank"
+                      >{{ content.name }}</a>
+                    </p>
+                    <p>
+                      <a
+                        class="text-link text-caption"
+                        :href="content.url"
+                        target="_blank"
+                      >{{ content.url }}</a>
+                    </p>
+                    <p class="text-body-1 mt-5">
+                      {{ content.description }}
+                    </p>
                   </v-col>
                 </v-row>
               </v-card>
-              <h2 class="text-h4 title mb-2">Hydration Sponsors</h2>
-              <v-card class="sponsors py-10 px-10 mb-8" :elevation="0" v-for="(custom, index) in customs" :key="index">
+              <h2 class="text-h4 title mb-2">
+                Hydration Sponsors
+              </h2>
+              <v-card
+                v-for="(custom, index) in customs"
+                :key="index"
+                class="sponsors py-10 px-10 mb-8"
+                :elevation="0"
+              >
                 <v-row>
-                  <v-col lg="3" md="12" sm="12" xs="12" class="justify-center" align="center">
-                    <a :href="custom.url" target="_blank">
-                      <v-img class="link" :src="generateImgPath(custom.image)" max-height="300px" max-width="300px" ></v-img>
+                  <v-col
+                    lg="3"
+                    md="12"
+                    sm="12"
+                    xs="12"
+                    class="justify-center"
+                    align="center"
+                  >
+                    <a
+                      :href="custom.url"
+                      target="_blank"
+                    >
+                      <v-img
+                        class="link"
+                        :src="generateImgPath(custom.image)"
+                        max-height="300px"
+                        max-width="300px"
+                      />
                     </a>
                   </v-col>
                   <v-col>
-                    <p><a class="text-link text-h5 mb-2" :href="custom.url" target="_blank">{{ custom.name }}</a></p>
-                    <p><a class="text-link text-caption" :href="custom.url" target="_blank">{{ custom.url }}</a></p>
-                    <p class="text-body-1 mt-5">{{ custom.description }}</p>
+                    <p>
+                      <a
+                        class="text-link text-h5 mb-2"
+                        :href="custom.url"
+                        target="_blank"
+                      >{{ custom.name }}</a>
+                    </p>
+                    <p>
+                      <a
+                        class="text-link text-caption"
+                        :href="custom.url"
+                        target="_blank"
+                      >{{ custom.url }}</a>
+                    </p>
+                    <p class="text-body-1 mt-5">
+                      {{ custom.description }}
+                    </p>
                   </v-col>
                 </v-row>
               </v-card>
-              <h2 class="text-h4 title mb-2">Community Sponsors</h2>
-              <v-card class="sponsors py-10 px-10 mb-8" :elevation="0" v-for="(community, index) in communities" :key="index">
+              <h2 class="text-h4 title mb-2">
+                Community Sponsors
+              </h2>
+              <v-card
+                v-for="(community, index) in communities"
+                :key="index"
+                class="sponsors py-10 px-10 mb-8"
+                :elevation="0"
+              >
                 <v-row>
-                  <v-col lg="3" md="12" sm="12" xs="12" class="justify-center" align="center">
-                    <a :href="community.url" target="_blank">
-                      <v-img class="link" :src="generateImgPath(community.image)" max-height="300px" max-width="300px" ></v-img>
+                  <v-col
+                    lg="3"
+                    md="12"
+                    sm="12"
+                    xs="12"
+                    class="justify-center"
+                    align="center"
+                  >
+                    <a
+                      :href="community.url"
+                      target="_blank"
+                    >
+                      <v-img
+                        class="link"
+                        :src="generateImgPath(community.image)"
+                        max-height="300px"
+                        max-width="300px"
+                      />
                     </a>
                   </v-col>
                   <v-col>
-                    <p><a class="text-link text-h5 mb-2" :href="community.url" target="_blank">{{ community.name }}</a></p>
-                    <p><a class="text-link text-caption" :href="community.url" target="_blank">{{ community.url }}</a></p>
-                    <p class="text-body-1 mt-5">{{ community.description }}</p>
+                    <p>
+                      <a
+                        class="text-link text-h5 mb-2"
+                        :href="community.url"
+                        target="_blank"
+                      >{{ community.name }}</a>
+                    </p>
+                    <p>
+                      <a
+                        class="text-link text-caption"
+                        :href="community.url"
+                        target="_blank"
+                      >{{ community.url }}</a>
+                    </p>
+                    <p class="text-body-1 mt-5">
+                      {{ community.description }}
+                    </p>
                   </v-col>
                 </v-row>
               </v-card>
             </div>
           </v-card-item>
         </v-card>
-        <Wave />
+        <FooterWave />
         <div class="footer">
           Osaka RubyKaigi 04 ©2024 <br>
           Designed by <a href="https://twitter.com/ydah_">@ydah_</a>
@@ -141,7 +259,7 @@ export default {
         url: 'https://rubykansai.doorkeeper.jp/',
         description: 'Ruby関西はRuby関西勉強会や関西Ruby會議、Rails勉強会＠関西など、関西でのRubyに関するイベントの主体となるコミュニティです。',
         image: 'sponsors/rubykansai.png',
-      }
+      },
     ],
   }),
 }

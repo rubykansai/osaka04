@@ -3,59 +3,120 @@
     <AppHeader />
     <v-row>
       <v-col align="center">
-        <v-card max-width="70vw" min-width="70vw" class="py-10" :elevation="0">
+        <v-card
+          max-width="70vw"
+          min-width="70vw"
+          class="py-10"
+          :elevation="0"
+        >
           <v-card-item>
-            <v-img src="/logo.png" width="10vh"/>
-            <h1 class="text-h2 title mb-15">Goodies</h1>
+            <v-img
+              src="/logo.png"
+              width="10vh"
+            />
+            <h1 class="text-h2 title mb-15">
+              Goodies
+            </h1>
             <div align="left">
-              <h2 class="text-h5 title mb-5">Main Visual</h2>
-              <v-img src="/ogp.png"></v-img>
-              <v-divider class="my-15"></v-divider>
-              <h2 class="text-h5 title mb-5">Keynote Template</h2>
+              <h2 class="text-h5 title mb-5">
+                Main Visual
+              </h2>
+              <v-img src="/ogp.png" />
+              <v-divider class="my-15" />
+              <h2 class="text-h5 title mb-5">
+                Keynote Template
+              </h2>
               <v-row class="justify-space-between">
-                <v-col md="6" sm="6" xs="12">
-                  <v-img src="/keynote_template_osaka_rubykaigi04.png" max-height="30rem" max-width="30rem" cover></v-img>
+                <v-col
+                  md="6"
+                  sm="6"
+                  xs="12"
+                >
+                  <v-img
+                    src="/keynote_template_osaka_rubykaigi04.png"
+                    max-height="30rem"
+                    max-width="30rem"
+                    cover
+                  />
                 </v-col>
                 <v-col>
-                  <h3 class="text-h6">This template requires the following fonts:</h3>
+                  <h3 class="text-h6">
+                    This template requires the following fonts:
+                  </h3>
                   <v-list>
                     <v-list-item>
                       <v-list-item-content>
-                        <a href="https://fonts.google.com/specimen/Federo" target="_blank" class="text-link">
+                        <a
+                          href="https://fonts.google.com/specimen/Federo"
+                          target="_blank"
+                          class="text-link"
+                        >
                           <v-list-item-title>- Federo</v-list-item-title>
                         </a>
                       </v-list-item-content>
                     </v-list-item>
                     <v-list-item>
                       <v-list-item-content>
-                        <a href="https://fonts.google.com/specimen/Roboto" target="_blank" class="text-link">
+                        <a
+                          href="https://fonts.google.com/specimen/Roboto"
+                          target="_blank"
+                          class="text-link"
+                        >
                           <v-list-item-title>- Roboto</v-list-item-title>
                         </a>
                       </v-list-item-content>
                     </v-list-item>
                   </v-list>
-                  <a href="https://rubykansai.github.io/osaka04/keynote_template_osaka_rubykaigi04.key" target="_blank" download="keynote_template_osaka_rubykaigi04.key">
-                    <v-btn rounded="xl" size="x-large" color="indigo-darken-3">Download</v-btn>
+                  <a
+                    href="https://rubykansai.github.io/osaka04/keynote_template_osaka_rubykaigi04.key"
+                    target="_blank"
+                    download="keynote_template_osaka_rubykaigi04.key"
+                  >
+                    <v-btn
+                      rounded="xl"
+                      size="x-large"
+                      color="indigo-darken-3"
+                    >Download</v-btn>
                   </a>
                 </v-col>
               </v-row>
-              <v-divider class="my-15"></v-divider>
-              <h2 class="text-h5 title mb-5">Official Goods</h2>
+              <v-divider class="my-15" />
+              <h2 class="text-h5 title mb-5">
+                Official Goods
+              </h2>
               <v-row class="justify-space-between">
-                <v-col md="6" sm="6" xs="12">
-                  <v-img src="/official_goods.png" max-height="30rem" max-width="30rem" cover></v-img>
+                <v-col
+                  md="6"
+                  sm="6"
+                  xs="12"
+                >
+                  <v-img
+                    src="/official_goods.png"
+                    max-height="30rem"
+                    max-width="30rem"
+                    cover
+                  />
                 </v-col>
                 <v-col>
-                  <h3 class="text-h6 mb-5">Official Shop on SUZURI</h3>
-                  <a href="https://suzuri.jp/kyobashirb" target="_blank">
-                    <v-btn rounded="xl" size="x-large" color="indigo-darken-3">Go to Shop</v-btn>
+                  <h3 class="text-h6 mb-5">
+                    Official Shop on SUZURI
+                  </h3>
+                  <a
+                    href="https://suzuri.jp/kyobashirb"
+                    target="_blank"
+                  >
+                    <v-btn
+                      rounded="xl"
+                      size="x-large"
+                      color="indigo-darken-3"
+                    >Go to Shop</v-btn>
                   </a>
                 </v-col>
               </v-row>
             </div>
           </v-card-item>
         </v-card>
-        <Wave />
+        <FooterWave />
         <div class="footer">
           Osaka RubyKaigi 04 ©2024 <br>
           Designed by <a href="https://twitter.com/ydah_">@ydah_</a>
