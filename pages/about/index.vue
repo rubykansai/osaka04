@@ -340,6 +340,13 @@
                       />
                       <v-card-title>k-yoshida</v-card-title>
                       <v-card-subtitle>Organizer</v-card-subtitle>
+                      <div class="d-flex justify-center">
+                        <a href="https://twitter.com/8maim0"><v-btn
+                          class="mx-2"
+                          icon="mdi-twitter"
+                          flat
+                        /></a>
+                      </div>
                     </div>
                   </v-card>
                 </v-col>
