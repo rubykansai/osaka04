@@ -23,6 +23,21 @@
                   </v-col>
                 </v-row>
               </v-card>
+              <h2 class="text-h4 title mb-2">Hydration Sponsors</h2>
+              <v-card class="sponsors py-10 px-10 mb-8" :elevation="0" v-for="(custom, index) in customs" :key="index">
+                <v-row>
+                  <v-col lg="3" md="12" sm="12" xs="12" class="justify-center" align="center">
+                    <a :href="custom.url" target="_blank">
+                      <v-img class="link" :src="generateImgPath(custom.image)" max-height="300px" max-width="300px" ></v-img>
+                    </a>
+                  </v-col>
+                  <v-col>
+                    <p><a class="text-link text-h5 mb-2" :href="custom.url" target="_blank">{{ custom.name }}</a></p>
+                    <p><a class="text-link text-caption" :href="custom.url" target="_blank">{{ custom.url }}</a></p>
+                    <p class="text-body-1 mt-5">{{ custom.description }}</p>
+                  </v-col>
+                </v-row>
+              </v-card>
               <h2 class="text-h4 title mb-2">Community Sponsors</h2>
               <v-card class="sponsors py-10 px-10 mb-8" :elevation="0" v-for="(community, index) in communities" :key="index">
                 <v-row>
@@ -98,6 +113,14 @@ export default {
         url: 'https://hello-world.smarthr.co.jp/',
         description: '「SmartHR」は、人事・労務の業務効率化と、データ活用によるタレントマネジメントや組織のパフォーマンス向上を実現するクラウド人事労務ソフトです。労働にまつわる社会課題をなくし、誰もがその人らしく働ける社会の実現を目指し、働くすべての人の生産性向上を後押しします。私たちは、歴史に残る模範的なソフトウェアをつくる仲間を探しています。フルリモート勤務可能！',
         image: 'sponsors/smarthr.png',
+      },
+    ],
+    customs: [
+      {
+        name: '株式会社アンドパッド',
+        url: 'https://engineer.andpad.co.jp/',
+        description: ' ANDPADはクラウド型建設プロジェクト管理プラットフォームで、現場効率化から業務改善まで一元管理できます。20万2000社以上、51万人の毎日の業務を支え、DX化を進めています。そして多くのプロダクトでRuby/Railsを使用し、Ruby/Railsが建築・建設業界のDXを支えているとも言えます。アンドパッドではRuby/Railsを駆使し、ユーザーの体験に活かせるRubyistを歓迎します。',
+        image: 'sponsors/andpad.png',
       },
     ],
     communities: [
