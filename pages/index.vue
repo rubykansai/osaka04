@@ -62,6 +62,15 @@
                   color="red-darken-3"
                 >Register Now</v-btn>
               </a>
+              <a
+                href="https://rubykansai.doorkeeper.jp/events/176051"
+                target="_blank"
+              >
+                <v-btn
+                  size="x-large"
+                  color="indigo-darken-3"
+                >After Party</v-btn>
+              </a>
             </div>
           </v-card-item>
         </v-card>
