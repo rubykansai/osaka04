@@ -118,7 +118,7 @@
         </v-card>
         <FooterWave />
         <div class="footer">
-          Osaka RubyKaigi 04 ©2024 <br>
+          OsakaRubyKaigi04 ©2024 <br>
           Designed by <a href="https://twitter.com/ydah_">@ydah_</a>
         </div>
       </v-col>

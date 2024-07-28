@@ -30,18 +30,18 @@ export default defineNuxtConfig({
   ],
   app: {
     head: {
-      title: 'Osaka RubyKaigi 04',
+      title: 'OsakaRubyKaigi04',
       meta: [
         { charset: 'utf-8' },
         { name: 'viewport', content: 'width=device-width, initial-scale=1' },
         { name: 'description', content: '大阪Ruby会議は、大阪で定期的に開催しているRubyプログラミング言語に関するカンファレンスです。Rubyに関する知見・技術を共有し、またRubyistの交流の場として、皆様に楽しんでいただけるカンファレンスを目指しています。' },
         { property: 'og:type', content: 'website' },
-        { property: 'og:site_name', content: 'Osaka RubyKaigi 04' },
+        { property: 'og:site_name', content: 'OsakaRubyKaigi04' },
         { property: 'og:image', content: 'https://rubykansai.github.io/osaka04/ogp.png' },
         { property: 'og:description', content: '大阪Ruby会議は、大阪で定期的に開催しているRubyプログラミング言語に関するカンファレンスです。Rubyに関する知見・技術を共有し、またRubyistの交流の場として、皆様に楽しんでいただけるカンファレンスを目指しています。' },
         { property: 'og:url', content: 'https://regional.rubykaigi.org/osaka04/' },
-        { property: 'og:title', content: 'Osaka RubyKaigi 04' },
-        { name: 'twitter:title', content: 'Osaka RubyKaigi 04' },
+        { property: 'og:title', content: 'OsakaRubyKaigi04' },
+        { name: 'twitter:title', content: 'OsakaRubyKaigi04' },
         { name: 'twitter:card', content: 'summary_large_image' },
         { name: 'twitter:site', content: '@rubykansai' },
         { name: 'twitter:image', content: 'https://rubykansai.github.io/osaka04/ogp.png' },

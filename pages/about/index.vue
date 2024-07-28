@@ -19,7 +19,7 @@
             </h1>
             <div align="left">
               <h2 class="text-h5 title mb-2">
-                Osaka RubyKaigiとは
+                大阪Ruby会議とは
               </h2>
               <p class="text-body-1 mb-10">
                 大阪Ruby会議は、大阪で定期的に開催しているRubyプログラミング言語に関するカンファレンスです。<br>
@@ -414,7 +414,7 @@
         </v-card>
         <FooterWave />
         <div class="footer">
-          Osaka RubyKaigi 04 ©2024 <br>
+          OsakaRubyKaigi04 ©2024 <br>
           Designed by <a href="https://twitter.com/ydah_">@ydah_</a>
         </div>
       </v-col>

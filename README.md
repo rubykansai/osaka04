@@ -1,3 +1,3 @@
-# Osaka RubyKaigi 04
+# OsakaRubyKaigi04
 
 https://rubykansai.github.io/osaka04/
