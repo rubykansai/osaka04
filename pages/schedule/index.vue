@@ -138,7 +138,7 @@ export default {
         end: '12:05',
         name: '',
         url: '',
-        title: '#rubyfriends with all Rubyists 📸',
+        title: 'みんなで #rubyfriends 📸',
         image: '',
         isTalk: false,
       },
