@@ -37,25 +37,31 @@
                     align="left"
                     class="py-10"
                   >
-                    <v-row>
-                      <v-col cols="2">
-                        <v-img
-                          :src="item.image"
-                          max-height="5rem"
-                          max-width="5rem"
-                          cover
-                        />
-                      </v-col>
-                      <v-col>
-                        <p class="text-h6 text-left">
-                          {{ item.title }}
-                        </p>
-                        <p class="text-subtitle text-left">
-                          {{ item.name }}
-                        </p>
-                      </v-col>
-                    </v-row>
+                    <NuxtLink
+                      :to="item.url"
+                      class="text-link"
+                    >
+                      <v-row>
+                        <v-col cols="2">
+                          <v-img
+                            :src="item.image"
+                            max-height="5rem"
+                            max-width="5rem"
+                            cover
+                          />
+                        </v-col>
+                        <v-col>
+                          <p class="text-h6 text-left">
+                            {{ item.title }}
+                          </p>
+                          <p class="text-subtitle text-left">
+                            {{ item.name }}
+                          </p>
+                        </v-col>
+                      </v-row>
+                    </NuxtLink>
                   </td>
+
                   <td v-else>
                     <p class="text-h6 text-center">
                       {{ item.title }}
@@ -102,7 +108,7 @@ export default {
         start: '10:40',
         end: '11:25',
         name: 'Yuichiro Kaneko',
-        url: 'yui-knk',
+        url: '/presentations/yui-knk',
         title: 'Keynote: T.B.D.',
         image: 'https://avatars.githubusercontent.com/u/5356517?v=4',
         isTalk: true,
@@ -111,7 +117,7 @@ export default {
         start: '11:25',
         end: '11:40',
         name: 'makicamel',
-        url: 'makicamel',
+        url: '/presentations/makicamel',
         title: 'dRuby 入門者による あなたの身近にある dRuby 入門',
         image: 'https://avatars.githubusercontent.com/u/30112374?v=4',
         isTalk: true,
@@ -120,7 +126,7 @@ export default {
         start: '11:40',
         end: '11:55',
         name: 'kinoppyd',
-        url: 'kinoppyd',
+        url: '/presentations/kinoppyd',
         title: 'RubyKaigi公式スケジュールアプリ開発で得た、Hotwireの使い方',
         image: 'https://avatars.githubusercontent.com/u/2846039?v=4',
         isTalk: true,
@@ -147,7 +153,7 @@ export default {
         start: '13:35',
         end: '14:05',
         name: 'ぺん！',
-        url: 'tompng',
+        url: '/presentations/tompng',
         title: 'Re-line 〜 IRB・Reline 複数行編集の裏側',
         image: 'https://avatars.githubusercontent.com/u/1780201?v=4',
         isTalk: true,
@@ -183,7 +189,7 @@ export default {
         start: '14:20',
         end: '14:50',
         name: 'joker1007',
-        url: 'joker1007',
+        url: '/presentations/joker1007',
         title: 'Rustで作るTreeSitterパーサーのRubyバインディング',
         image: 'https://avatars.githubusercontent.com/u/116996?v=4',
         isTalk: true,
@@ -192,7 +198,7 @@ export default {
         start: '14:50',
         end: '15:05',
         name: 'haruguchi',
-        url: 'haruguchi',
+        url: '/presentations/haruguchi',
         title: '競技プログラミングでみる Ruby の豊かさ',
         image: 'https://avatars.githubusercontent.com/u/57053236?v=4',
         isTalk: true,
@@ -210,7 +216,7 @@ export default {
         start: '15:25',
         end: '15:55',
         name: 'Koichi ITO',
-        url: 'koic',
+        url: '/presentations/koic',
         title: 'Minify Ruby Code',
         image: 'https://avatars.githubusercontent.com/u/13203?v=4',
         isTalk: true,
@@ -237,7 +243,7 @@ export default {
         start: '16:05',
         end: '16:20',
         name: '前田修吾',
-        url: 'shugomaeda',
+        url: '/presentations/shugomaeda',
         title: 'strscanなしで文字列をスキャンする',
         image: 'https://avatars.githubusercontent.com/u/34552?v=4',
         isTalk: true,
@@ -246,7 +252,7 @@ export default {
         start: '16:20',
         end: '16:50',
         name: 'willnet',
-        url: 'willnet',
+        url: '/presentations/willnet',
         title: 'どうしてこうなった？から理解するActive Recordの関連の裏側',
         image: 'https://avatars.githubusercontent.com/u/82371?v=4',
         isTalk: true,
@@ -282,7 +288,7 @@ export default {
         start: '17:20',
         end: '18:05',
         name: 'Hitoshi HASUMI',
-        url: 'hasumikin',
+        url: '/presentations/hasumikin',
         title: 'Keynote: T.B.D.',
         image: 'https://avatars.githubusercontent.com/u/8454208?v=4',
         isTalk: true,
