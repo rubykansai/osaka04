@@ -35,7 +35,7 @@
                   <td
                     v-if="item.isTalk"
                     align="left"
-                    class="py-5"
+                    class="py-10"
                   >
                     <v-row>
                       <v-col cols="2">
