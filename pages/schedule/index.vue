@@ -4,8 +4,8 @@
     <v-row>
       <v-col align="center">
         <v-card
-          max-width="70vw"
-          min-width="70vw"
+          max-width="80vw"
+          min-width="80vw"
           class="py-10"
           :elevation="0"
         >
@@ -42,11 +42,13 @@
                       class="text-link"
                     >
                       <v-row>
-                        <v-col cols="2">
+                        <v-col cols="3">
                           <v-img
                             :src="item.image"
                             max-height="5rem"
                             max-width="5rem"
+                            min-width="5rem"
+                            min-height="5rem"
                             cover
                           />
                         </v-col>
