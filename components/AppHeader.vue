@@ -15,6 +15,12 @@
         </NuxtLink>
         <NuxtLink
           class="d-none d-sm-block"
+          to="/schedule"
+        >
+          <v-btn>Schedule</v-btn>
+        </NuxtLink>
+        <NuxtLink
+          class="d-none d-sm-block"
           to="/speakers"
         >
           <v-btn>Speakers</v-btn>
@@ -55,6 +61,9 @@
       <v-list>
         <NuxtLink to="/">
           <v-list-item>Home</v-list-item>
+        </NuxtLink>
+        <NuxtLink to="/schedule">
+          <v-list-item>Schedule</v-list-item>
         </NuxtLink>
         <NuxtLink to="/speakers">
           <v-list-item>Speakers</v-list-item>
