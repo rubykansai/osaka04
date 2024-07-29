@@ -15,6 +15,7 @@ export default withNuxt(
       'vue/no-multiple-template-root': 'error',
       'vue/require-v-for-key': 'error',
       'vue/no-use-v-if-with-v-for': 'error',
+      'vue/max-attributes-per-line': 'off',
     },
   },
   stylistic.configs.customize({
