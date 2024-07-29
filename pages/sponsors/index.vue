@@ -121,6 +121,57 @@
                 </v-row>
               </v-card>
               <h2 class="text-h4 title mb-2">
+                Novelty Sponsors
+              </h2>
+              <v-card
+                v-for="(novelty, index) in novelties"
+                :key="index"
+                class="sponsors py-10 px-10 mb-8"
+                :elevation="0"
+              >
+                <v-row>
+                  <v-col
+                    lg="3"
+                    md="12"
+                    sm="12"
+                    xs="12"
+                    class="justify-center"
+                    align="center"
+                  >
+                    <a
+                      :href="novelty.url"
+                      target="_blank"
+                    >
+                      <v-img
+                        class="link"
+                        :src="generateImgPath(novelty.image)"
+                        max-height="300px"
+                        max-width="300px"
+                      />
+                    </a>
+                  </v-col>
+                  <v-col>
+                    <p>
+                      <a
+                        class="text-link text-h5 mb-2"
+                        :href="novelty.url"
+                        target="_blank"
+                      >{{ novelty.name }}</a>
+                    </p>
+                    <p>
+                      <a
+                        class="text-link text-caption"
+                        :href="novelty.url"
+                        target="_blank"
+                      >{{ novelty.url }}</a>
+                    </p>
+                    <p class="text-body-1 mt-5">
+                      {{ novelty.description }}
+                    </p>
+                  </v-col>
+                </v-row>
+              </v-card>
+              <h2 class="text-h4 title mb-2">
                 Community Sponsors
               </h2>
               <v-card
@@ -234,8 +285,16 @@ export default {
       {
         name: '株式会社アンドパッド',
         url: 'https://engineer.andpad.co.jp/',
-        description: ' ANDPADはクラウド型建設プロジェクト管理プラットフォームで、現場効率化から業務改善まで一元管理できます。20万2000社以上、51万人の毎日の業務を支え、DX化を進めています。そして多くのプロダクトでRuby/Railsを使用し、Ruby/Railsが建築・建設業界のDXを支えているとも言えます。アンドパッドではRuby/Railsを駆使し、ユーザーの体験に活かせるRubyistを歓迎します。',
+        description: 'ANDPADはクラウド型建設プロジェクト管理プラットフォームで、現場効率化から業務改善まで一元管理できます。20万2000社以上、51万人の毎日の業務を支え、DX化を進めています。そして多くのプロダクトでRuby/Railsを使用し、Ruby/Railsが建築・建設業界のDXを支えているとも言えます。アンドパッドではRuby/Railsを駆使し、ユーザーの体験に活かせるRubyistを歓迎します。',
         image: 'sponsors/andpad.png',
+      },
+    ],
+    novelties: [
+      {
+        name: 'BouqueTec 株式会社',
+        url: 'https://www.instagram.com/bouquetec_com/',
+        description: 'ブーケテックはものづくりを通じて学びや楽しむことを応援します。オープンソースソフトウェア（OSS）の開発を支援しています。',
+        image: 'sponsors/bouquetec.png',
       },
     ],
     communities: [
