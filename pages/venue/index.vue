@@ -38,10 +38,7 @@
           </v-card-item>
         </v-card>
         <FooterWave />
-        <div class="footer">
-          OsakaRubyKaigi04 ©2024 <br>
-          Designed by <a href="https://twitter.com/ydah_">@ydah_</a>
-        </div>
+        <FooterBlock />
       </v-col>
     </v-row>
   </v-app>
