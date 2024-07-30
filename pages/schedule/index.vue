@@ -2,7 +2,7 @@
   <v-app class="fill-height">
     <AppHeader />
     <v-row>
-      <v-col align="center">
+      <v-col align="center" class="pb-0 pt-5">
         <v-card
           max-width="80vw"
           min-width="80vw"
