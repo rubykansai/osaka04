@@ -1,4 +1,4 @@
-import{V as i,a as n,b as p,c,_ as u,d as r,e as h,g as l,k as f,h as b,i as k,j as g}from"./Du8sEe3N.js";import{_ as x,q as y,w as e,V,o as v,b as t,a,d as w,t as o}from"./g4Bvrttr.js";import"./DJbaknuj.js";const R={data:()=>({speaker:{name:"makicamel",twitter:"https://twitter.com/makicamel",github:"https://github.com/makicamel",description:"Rubyist",image:"https://avatars.githubusercontent.com/u/30112374?v=4",title:"dRuby 入門者による あなたの身近にある dRuby 入門",abstract:`dRuby 使ってますか？ dRuby とは何かを知っていますか？
+import{V as i,a as n,b as p,c,_ as u,d as r,e as h,g as l,k as f,h as b,i as k,j as g}from"./-Azbycg6.js";import{_ as x,q as y,w as e,V,o as v,b as t,a,d as w,t as o}from"./p3YKnXdg.js";import"./D_RUNMIo.js";const R={data:()=>({speaker:{name:"makicamel",twitter:"https://twitter.com/makicamel",github:"https://github.com/makicamel",description:"Rubyist",image:"https://avatars.githubusercontent.com/u/30112374?v=4",title:"dRuby 入門者による あなたの身近にある dRuby 入門",abstract:`dRuby 使ってますか？ dRuby とは何かを知っていますか？
 数ヶ月前までの私の答えはどちらも「NO」でした。リファレンスマニュアルには「分散オブジェクトプログラミングのためのライブラリ」と書いてあるけれど「分散オブジェクトプログラミング」とは何かわからない。なんとなく複雑だったり大規模だったりして自分とは縁遠い世界のものと思って生きていました。
 
 そんなある日 rspec-core のコードを読んで衝撃を受けました。
