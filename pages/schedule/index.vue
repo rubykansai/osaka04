@@ -68,6 +68,9 @@
                     <p class="text-h6 text-center">
                       {{ item.title }}
                     </p>
+                    <p class="text-subtitle text-center">
+                      {{ item.name }}
+                    </p>
                   </td>
                 </tr>
               </tbody>
@@ -160,9 +163,9 @@ export default {
       {
         start: '14:05',
         end: '14:10',
-        name: '',
+        name: 'junk0612',
         url: '',
-        title: 'Sponsor LT: LR で JSON パーサーを作る @junk0612',
+        title: 'Sponsor LT: LR で JSON パーサーを作る',
         image: '',
         isTalk: false,
       },
@@ -232,9 +235,9 @@ export default {
       {
         start: '16:00',
         end: '16:05',
-        name: '',
+        name: 'ykyuki21',
         url: '',
-        title: 'Sponsor LT: 労務ドメインを快適に開発する方法 〜日本語コーディング編〜 @ykyuki21',
+        title: 'Sponsor LT: 労務ドメインを快適に開発する方法 〜日本語コーディング編〜',
         image: '',
         isTalk: false,
       },
