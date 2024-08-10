@@ -288,7 +288,7 @@ export default {
         end: '18:05',
         name: 'Hitoshi HASUMI',
         url: '/presentations/hasumikin',
-        title: 'Keynote: T.B.D.',
+        title: 'Keynote: 令和の隙間産業——PicoRubyはどこから来て、どこへ行くのか',
         image: 'https://avatars.githubusercontent.com/u/8454208?v=4',
         isTalk: true,
       },

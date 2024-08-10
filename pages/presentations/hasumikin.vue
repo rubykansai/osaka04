@@ -86,7 +86,7 @@ export default {
       github: 'https://github.com/hasumikin',
       description: 'Creator of PicoRuby & PRK Firmware. Maintainer of IRB. Winner of Fukuoka Ruby Award First Prize in 2020 & 2022, and a Ruby Prize 2021 final nominee.',
       image: 'https://avatars.githubusercontent.com/u/8454208?v=4',
-      title: 'Keynote: T.B.D.',
+      title: 'Keynote: 令和の隙間産業——PicoRubyはどこから来て、どこへ行くのか',
       abstract: 'Hitoshi HASUMI Keynote',
     },
   }),
