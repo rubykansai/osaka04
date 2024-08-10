@@ -86,7 +86,7 @@ export default {
       github: 'https://github.com/yui-knk',
       description: 'The author of Lrama LALR parser generator. Ruby committer.',
       image: 'https://avatars.githubusercontent.com/u/5356517?v=4',
-      title: 'Keynote: T.B.D.',
+      title: 'Keynote: 最高の構文木の設計 2024年版',
       abstract: 'Yuichiro Kaneko keynote',
     },
   }),

@@ -108,7 +108,7 @@ export default {
         end: '11:25',
         name: 'Yuichiro Kaneko',
         url: '/presentations/yui-knk',
-        title: 'Keynote: T.B.D.',
+        title: 'Keynote: 最高の構文木の設計 2024年版',
         image: 'https://avatars.githubusercontent.com/u/5356517?v=4',
         isTalk: true,
       },
