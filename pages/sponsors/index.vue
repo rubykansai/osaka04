@@ -70,7 +70,7 @@
                 </v-row>
               </v-card>
               <h2 class="text-h4 title mb-2">
-                Hydration Sponsors
+                Hydration Sponsor
               </h2>
               <v-card
                 v-for="(custom, index) in customs"
@@ -121,7 +121,7 @@
                 </v-row>
               </v-card>
               <h2 class="text-h4 title mb-2">
-                Novelty Sponsors
+                Novelty Sponsor
               </h2>
               <v-card
                 v-for="(novelty, index) in novelties"
