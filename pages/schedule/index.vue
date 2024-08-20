@@ -271,9 +271,9 @@ export default {
       {
         start: '17:10',
         end: '17:15',
-        name: '',
+        name: 'znz',
         url: '',
-        title: 'Sponsor LT',
+        title: 'Sponsor LT: devise-two-factorを4.xから5.xに上げた話',
         image: '',
         isTalk: false,
       },
