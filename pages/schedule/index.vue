@@ -219,7 +219,7 @@ export default {
         end: '15:55',
         name: 'okeysea',
         url: '',
-        title: 'Sponsor LT': 株式会社ナレッジラボのご紹介,
+        title: 'Sponsor LT: 株式会社ナレッジラボのご紹介',
         image: '',
         isTalk: false,
       },
