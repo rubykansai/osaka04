@@ -217,9 +217,9 @@ export default {
       {
         start: '15:50',
         end: '15:55',
-        name: '',
+        name: 'okeysea',
         url: '',
-        title: 'Sponsor LT',
+        title: 'Sponsor LT': 株式会社ナレッジラボのご紹介,
         image: '',
         isTalk: false,
       },
@@ -271,9 +271,9 @@ export default {
       {
         start: '17:10',
         end: '17:15',
-        name: '',
+        name: '久保 慶輔',
         url: '',
-        title: 'Sponsor LT',
+        title: 'Sponsor LT: PHPerが転職してRubyを3ヶ月使った感想',
         image: '',
         isTalk: false,
       },
