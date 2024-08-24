@@ -2,11 +2,11 @@
   <v-app class="fill-height">
     <AppHeader />
     <v-row>
-      <v-col align="center">
+      <v-col align="center" class="pb-0 mt-12">
         <v-card
           max-width="80vw"
           min-width="80vw"
-          class="py-10"
+          class="mt-12"
           :elevation="0"
         >
           <v-card-item>
