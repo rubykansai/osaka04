@@ -162,6 +162,14 @@ export default {
   white-space: pre-wrap;
 }
 
+svg.v-icon__svg {
+  transform: none;
+}
+
+.slide-btn .v-icon {
+  margin-right: 7px;
+}
+
 @media (max-width: 600px) {
 .v-col {
     flex-basis: inherit !important;
