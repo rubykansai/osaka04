@@ -65,6 +65,19 @@
                   <p class="text-body-1 abstract">
                     {{ speaker.abstract }}
                   </p>
+                  <v-divider class="my-5" />
+                  <a
+                    v-if="speaker.slide"
+                    :href="speaker.slide"
+                    target="_blank"
+                  >
+                    <v-btn
+                      class="slide-btn"
+                      rounded="xl"
+                      size="large"
+                      color="indigo-darken-3"
+                    ><v-icon icon="mdi-presentation" size="medium" /> Slides ></v-btn>
+                  </a>
                 </v-col>
               </v-row>
             </div>
@@ -88,6 +101,7 @@ export default {
       image: 'https://avatars.githubusercontent.com/u/30112374?v=4',
       title: 'dRuby 入門者による あなたの身近にある dRuby 入門',
       abstract: 'dRuby 使ってますか？ dRuby とは何かを知っていますか？\n数ヶ月前までの私の答えはどちらも「NO」でした。リファレンスマニュアルには「分散オブジェクトプログラミングのためのライブラリ」と書いてあるけれど「分散オブジェクトプログラミング」とは何かわからない。なんとなく複雑だったり大規模だったりして自分とは縁遠い世界のものと思って生きていました。\n\nそんなある日 rspec-core のコードを読んで衝撃を受けました。\n「require \'drb/drb\'って書いてある!!身近じゃん」\n\nわたしたちの身近にあるいくつかの dRuby を利用したプロダクトを通して、dRuby 入門者から見た分散オブジェクトプログラミングの面白さをお話します。',
+      slide: 'https://speakerdeck.com/makicamel/druby-ru-men-zhe-niyoruanatanoshen-jin-niarudruby-ru-men',
     },
   }),
 }

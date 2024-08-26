@@ -65,6 +65,19 @@
                   <p class="text-body-1 abstract">
                     {{ speaker.abstract }}
                   </p>
+                  <v-divider class="my-5" />
+                  <a
+                    v-if="speaker.slide"
+                    :href="speaker.slide"
+                    target="_blank"
+                  >
+                    <v-btn
+                      class="slide-btn"
+                      rounded="xl"
+                      size="large"
+                      color="indigo-darken-3"
+                    ><v-icon icon="mdi-presentation" size="medium" /> Slides ></v-btn>
+                  </a>
                 </v-col>
               </v-row>
             </div>
@@ -88,6 +101,7 @@ export default {
       image: 'https://avatars.githubusercontent.com/u/13203?v=4',
       title: 'Minify Ruby Code',
       abstract: 'Ruby のコードを minify する話です。\n\nminify するための構文解析の実装には Prism パーサーを使います。構文解析というと抽象構文木のイメージを持たれがちかもしれませんが、本編ではレキサーを使った手法を紹介します。このトークの中で、minify の実装における注意点や、そこから得られた Ruby の構文の特色についてもお話しします。\n\nJavaScript などではポピュラーな minify を、Ruby のコードで行ったらどうなるかの発表をお楽しみください。',
+      slide: 'https://speakerdeck.com/koic/minify-ruby-code',
     },
   }),
 }

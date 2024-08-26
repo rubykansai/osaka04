@@ -65,6 +65,19 @@
                   <p class="text-body-1 abstract">
                     {{ speaker.abstract }}
                   </p>
+                  <v-divider class="my-5" />
+                  <a
+                    v-if="speaker.slide"
+                    :href="speaker.slide"
+                    target="_blank"
+                  >
+                    <v-btn
+                      class="slide-btn"
+                      rounded="xl"
+                      size="large"
+                      color="indigo-darken-3"
+                    ><v-icon icon="mdi-presentation" size="medium" /> Slides ></v-btn>
+                  </a>
                 </v-col>
               </v-row>
             </div>
@@ -88,6 +101,7 @@ export default {
       image: 'https://avatars.githubusercontent.com/u/34552?v=4',
       title: 'strscanなしで文字列をスキャンする',
       abstract: 'default gemであるstrscanを使うと文字列を効率的にスキャンすることができますが、Ruby 3.2で導入されたString#byteindexを使用すると、組み込みライブラリだけで文字列をスキャンすることができます。この発表では、そもそも文字列のスキャンになぜstrscanが必要なのか、byteindexを使用してどのように同じ問題を解決できるのかを説明します。',
+      slide: 'https://github.com/shugo/OsakaRubyKaigi04/blob/main/slide.md',
     },
   }),
 }

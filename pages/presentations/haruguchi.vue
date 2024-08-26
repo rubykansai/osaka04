@@ -65,6 +65,19 @@
                   <p class="text-body-1 abstract">
                     {{ speaker.abstract }}
                   </p>
+                  <v-divider class="my-5" />
+                  <a
+                    v-if="speaker.slide"
+                    :href="speaker.slide"
+                    target="_blank"
+                  >
+                    <v-btn
+                      class="slide-btn"
+                      rounded="xl"
+                      size="large"
+                      color="indigo-darken-3"
+                    ><v-icon icon="mdi-presentation" size="medium" /> Slides ></v-btn>
+                  </a>
                 </v-col>
               </v-row>
             </div>
@@ -88,6 +101,7 @@ export default {
       image: 'https://avatars.githubusercontent.com/u/57053236?v=4',
       title: '競技プログラミングでみる Ruby の豊かさ',
       abstract: 'Rubyには多様な楽しみ方がありますが、競技プログラミングもその1つです。\n\n本トークでは、競技プログラミングで特に活躍するRubyの特徴的なシンタックスやメソッドを紹介します。私が普段仕事としてWebアプリケーション開発で書いている業務的なコードの書き方とは一線を画す、競技プログラミングならではのクリエイティブで簡潔なコードの書き方を具体的な例と共にお見せします。\n\n対象者は普段、保守・拡張性に富んだ可読性の高いコードを書いてしまっているRubyistです。',
+      slide: 'https://speakerdeck.com/haruguchi/jing-ji-puroguramingudejian-rurubynoli-kasa',
     },
   }),
 }
@@ -146,6 +160,14 @@ export default {
 
 .abstract {
   white-space: pre-wrap;
+}
+
+svg.v-icon__svg {
+  transform: none;
+}
+
+.slide-btn .v-icon {
+  margin-right: 7px;
 }
 
 @media (max-width: 600px) {

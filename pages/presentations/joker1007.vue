@@ -65,6 +65,19 @@
                   <p class="text-body-1 abstract">
                     {{ speaker.abstract }}
                   </p>
+                  <v-divider class="my-5" />
+                  <a
+                    v-if="speaker.slide"
+                    :href="speaker.slide"
+                    target="_blank"
+                  >
+                    <v-btn
+                      class="slide-btn"
+                      rounded="xl"
+                      size="large"
+                      color="indigo-darken-3"
+                    ><v-icon icon="mdi-presentation" size="medium" /> Slides ></v-btn>
+                  </a>
                 </v-col>
               </v-row>
             </div>
@@ -88,6 +101,7 @@ export default {
       image: 'https://avatars.githubusercontent.com/u/116996?v=4',
       title: 'Rustで作るTreeSitterパーサーのRubyバインディング',
       abstract: '以前からrubygemをRustで実装することが出来ることをご存知の方は多いと思います。\n最近はmagnusというライブラリで、C拡張を書いていた時に近いAPIでRust製のrubygemが実装できる様になっており、Bundlerが生成するスケルトンにも採用されています。\n\n今回、それを利用してRustでTreeSitterパーサーのRubyバインディングを実装してみました。\nTreeSitterを題材にしたのは、去年からのRuby Worldでのパーサーの盛り上がりに触発されてtree-sitter-rbsというRBSのパーサーを作成してみてTreeSitterに興味があったこと、そしてRustのライブラリがあったからです。\n\nこのトークでは、Rustでrubygemsを実装する方法と苦労しそうな点について解説し、実際に作ってみたTreeSitterのバイディングを用いて色々なソースコードをパースするデモを紹介するつもりです。',
+      slide: 'https://speakerdeck.com/joker1007/rustdezuo-rutree-sitterpasanorubybaindeingu',
     },
   }),
 }

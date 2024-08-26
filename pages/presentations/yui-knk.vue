@@ -65,6 +65,19 @@
                   <p class="text-body-1 abstract">
                     {{ speaker.abstract }}
                   </p>
+                  <v-divider class="my-5" />
+                  <a
+                    v-if="speaker.slide"
+                    :href="speaker.slide"
+                    target="_blank"
+                  >
+                    <v-btn
+                      class="slide-btn"
+                      rounded="xl"
+                      size="large"
+                      color="indigo-darken-3"
+                    ><v-icon icon="mdi-presentation" size="medium" /> Slides ></v-btn>
+                  </a>
                 </v-col>
               </v-row>
             </div>
@@ -88,6 +101,7 @@ export default {
       image: 'https://avatars.githubusercontent.com/u/5356517?v=4',
       title: 'Keynote: 最高の構文木の設計 2024年版',
       abstract: 'Yuichiro Kaneko keynote',
+      slide: 'https://speakerdeck.com/yui_knk/zui-gao-nogou-wen-mu-noshe-ji-2024nian-ban',
     },
   }),
 }

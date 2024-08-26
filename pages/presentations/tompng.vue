@@ -65,6 +65,19 @@
                   <p class="text-body-1 abstract">
                     {{ speaker.abstract }}
                   </p>
+                  <v-divider class="my-5" />
+                  <a
+                    v-if="speaker.slide"
+                    :href="speaker.slide"
+                    target="_blank"
+                  >
+                    <v-btn
+                      class="slide-btn"
+                      rounded="xl"
+                      size="large"
+                      color="indigo-darken-3"
+                    ><v-icon icon="mdi-presentation" size="medium" /> Slides ></v-btn>
+                  </a>
                 </v-col>
               </v-row>
             </div>
@@ -88,6 +101,7 @@ export default {
       image: 'https://avatars.githubusercontent.com/u/1780201?v=4',
       title: 'Re-line 〜 IRB・Reline 複数行編集の裏側',
       abstract: 'IRBの複数行入力は、Rubyの標準ライブラリであるRelineが担っています。\nこのトークでは、Relineがどのように複数行入力や補完ダイアログなどを描画しているのか、そしてその描画方式が最近のリアーキテクチャリングでどう変わったかを比較しながら解説します。\nまた、Relineの行数を800行減らしたリアーキテクチャリングから得られた知見も紹介します。',
+      slide: 'https://drive.google.com/file/d/19g1BQ9YuTQhr_HYEQk2Ktr9ZIeONSuO9/view',
     },
   }),
 }

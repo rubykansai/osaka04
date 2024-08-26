@@ -65,6 +65,19 @@
                   <p class="text-body-1 abstract">
                     {{ speaker.abstract }}
                   </p>
+                  <v-divider class="my-5" />
+                  <a
+                    v-if="speaker.slide"
+                    :href="speaker.slide"
+                    target="_blank"
+                  >
+                    <v-btn
+                      class="slide-btn"
+                      rounded="xl"
+                      size="large"
+                      color="indigo-darken-3"
+                    ><v-icon icon="mdi-presentation" size="medium" /> Slides ></v-btn>
+                  </a>
                 </v-col>
               </v-row>
             </div>
@@ -88,6 +101,7 @@ export default {
       image: 'https://avatars.githubusercontent.com/u/2846039?v=4',
       title: 'RubyKaigi公式スケジュールアプリ開発で得た、Hotwireの使い方',
       abstract: '2021年から提供しているRubyKaigi公式スケジュールアプリを、2024年に全面Hotwireで書き直しました。Hotwireを使った開発体験の良いところと、良くないところ、そして実地で得たモバイル環境でのフィードバックなどをお話しします。主なトピックはTurbo関連で、Stimulusに関しては少なめです。',
+      slide: 'https://www.docswell.com/s/kinoppyd/5EXNJQ-osaka-ruby-kaigi-04?utm_source=twitter&utm_medium=social&utm_campaign=singlepage',
     },
   }),
 }

@@ -65,6 +65,19 @@
                   <p class="text-body-1 abstract">
                     {{ speaker.abstract }}
                   </p>
+                  <v-divider class="my-5" />
+                  <a
+                    v-if="speaker.slide"
+                    :href="speaker.slide"
+                    target="_blank"
+                  >
+                    <v-btn
+                      class="slide-btn"
+                      rounded="xl"
+                      size="large"
+                      color="indigo-darken-3"
+                    ><v-icon icon="mdi-presentation" size="medium" /> Slides ></v-btn>
+                  </a>
                 </v-col>
               </v-row>
             </div>
@@ -88,6 +101,7 @@ export default {
       image: 'https://avatars.githubusercontent.com/u/82371?v=4',
       title: 'どうしてこうなった？から理解するActive Recordの関連の裏側',
       abstract: 'Active Recordは便利なライブラリです。Active Recordは一見すると魔法のように振る舞いますが、当然ながら実際にはRubyのコードが決められた仕様で動いています。Active Recordが実際どのように動くのかを知っていると、Active Recordが期待通り動かないエッジケースに遭遇したときのデバッグや修正に役立ちます。\n\n今回の発表では、私が実際に遭遇した「Active Recordが期待通り動かないエッジケース」を元にActive Recordにおける関連の裏側について解説します。具体的には(1)特定のモデルをsaveしたときに関連モデルも同時にsaveされる仕組み、(2)関連のinverse_ofオプションの仕組みについて説明した上で、(1)と(2)が合わさったときに発生する想定外の挙動について詳しく説明していく予定です。\n\nこの発表を聞くことで、Active Recordの魔法の一端を理解できるようになるはずです。',
+      slide: 'https://speakerdeck.com/willnet/dousitekounatuta-karali-jie-suruactive-recordnoguan-lian-noli-ce-3dad1d86-eb47-4b73-9c69-34b66919315b',
     },
   }),
 }
