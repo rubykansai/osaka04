@@ -64,13 +64,38 @@
                     </NuxtLink>
                   </td>
 
-                  <td v-else>
-                    <p class="text-h6 text-center">
-                      {{ item.title }}
-                    </p>
-                    <p class="text-subtitle text-center">
-                      {{ item.name }}
-                    </p>
+                  <td v-else class="py-5">
+                    <v-row v-if="item.url">
+                      <v-col cols="3">
+                        <v-img
+                          :src="item.image"
+                          max-height="5rem"
+                          max-width="5rem"
+                          min-width="5rem"
+                          min-height="5rem"
+                          cover
+                        />
+                      </v-col>
+                      <v-col>
+                        <a :href="item.url" class="text-link" target="_blank">
+                          <p class="text-h6">
+                            Sponsor LT: {{ item.title }}
+                          </p>
+                          <p class="text-subtitle">
+                            {{ item.company }} {{ item.name }}
+                          </p>
+                        </a>
+                      </v-col>
+                    </v-row>
+
+                    <div v-else>
+                      <p class="text-h6 text-center">
+                        {{ item.title }}
+                      </p>
+                      <p class="text-subtitle text-center">
+                        {{ item.name }}
+                      </p>
+                    </div>
                   </td>
                 </tr>
               </tbody>
@@ -164,18 +189,20 @@ export default {
         start: '14:05',
         end: '14:10',
         name: '川原 翔吾',
-        url: '',
-        title: 'Sponsor LT: データベースだけじゃないN+1とその対策',
-        image: '',
+        company: 'フリー株式会社',
+        url: 'https://speakerdeck.com/kawahara/detabesudakeziyanain-plus-1tosonodui-ce',
+        title: 'データベースだけじゃないN+1とその対策',
+        image: 'sponsors/freee.png',
         isTalk: false,
       },
       {
         start: '14:10',
         end: '14:15',
         name: 'junk0612',
-        url: '',
-        title: 'Sponsor LT: LR で JSON パーサーを作る',
-        image: '',
+        company: '株式会社永和システムマネジメント',
+        url: 'https://speakerdeck.com/junk0612/coding-json-lr-parser',
+        title: 'LR で JSON パーサーを作る',
+        image: 'sponsors/esm.png',
         isTalk: false,
       },
       {
@@ -218,18 +245,20 @@ export default {
         start: '15:50',
         end: '15:55',
         name: 'okeysea',
-        url: '',
-        title: 'Sponsor LT: 株式会社ナレッジラボのご紹介',
-        image: '',
+        url: 'https://speakerdeck.com/kl_okeysea/osaka-rubykaigi-04-suponsalt-naretuzirabonogoshao-jie',
+        company: '株式会社ナレッジラボ',
+        title: '株式会社ナレッジラボのご紹介',
+        image: 'sponsors/knowledgelabo.png',
         isTalk: false,
       },
       {
         start: '15:55',
         end: '16:00',
         name: 'ykyuki21',
-        url: '',
-        title: 'Sponsor LT: 労務ドメインを快適に開発する方法 〜日本語コーディング編〜',
-        image: '',
+        url: 'https://speakerdeck.com/yuki21/how-to-comfortably-develop-in-the-labor-domain',
+        company: '株式会社SmartHR',
+        title: '労務ドメインを快適に開発する方法 〜日本語コーディング編〜',
+        image: 'sponsors/smarthr.png',
         isTalk: false,
       },
       {
@@ -263,18 +292,20 @@ export default {
         start: '17:05',
         end: '17:10',
         name: 'znz',
-        url: '',
-        title: 'Sponsor LT: devise-two-factorを4.xから5.xに上げた話',
-        image: '',
+        url: 'https://speakerdeck.com/znz/devise-two-factorwo4-dot-xkara5-dot-xnishang-getahua',
+        title: 'devise-two-factorを4.xから5.xに上げた話',
+        company: '株式会社Ruby開発',
+        image: 'sponsors/rubydevelopment.png',
         isTalk: false,
       },
       {
         start: '17:10',
         end: '17:15',
         name: '久保 慶輔',
-        url: '',
-        title: 'Sponsor LT: PHPerが転職してRubyを3ヶ月使った感想',
-        image: '',
+        url: 'https://speakerdeck.com/kk8511/phpers-impression-after-3-months-of-using-ruby',
+        title: 'PHPerが転職してRubyを3ヶ月使った感想',
+        company: '株式会社インゲージ',
+        image: 'sponsors/ingage.png',
         isTalk: false,
       },
       {
